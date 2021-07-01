@@ -7,6 +7,7 @@ import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.fragment.app.Fragment
@@ -45,6 +46,7 @@ class PostsFragment : Fragment() {
     private fun checkView(view: View) {
         if (recyclerPostsAdapter!!.itemCount == 0) {
             view.findViewById<TextView>(R.id.error_message).visibility = View.VISIBLE
+            view.findViewById<ImageView>(R.id.error_image).visibility = View.VISIBLE
         }
         view.findViewById<ProgressBar>(R.id.progress_bar).visibility = View.GONE
         view.findViewById<RecyclerView>(R.id.recycler_view_posts).visibility = View.VISIBLE
