@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:icon="@drawable/book_menu"
+        android:title="@string/posts"/>
+<!--    <item-->
+<!--        android:id="@+id/page_2"-->
+<!--        android:enabled="true"-->
+<!--        android:title="@string/profile"/>-->
+    <item
+        android:id="@+id/page_3"
+        android:enabled="true"
+        android:icon="@drawable/fav"
+        android:title="@string/favourites"/>
+<!--    <item-->
+<!--        android:id="@+id/page_4"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/icon_test"-->
+<!--        android:title="@string/settings"/>-->
+</menu>
